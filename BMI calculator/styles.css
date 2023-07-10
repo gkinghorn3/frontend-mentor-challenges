@@ -70,8 +70,19 @@ body {
    
 }
 
+
+
 .measurement-row {
+    display: flex;
+    flex-direction: column;
     margin-top: 1rem;
+}
+
+.measurement-input {
+    border-style: solid;
+    border-color: #D8E2E7;
+    border-radius: 6px;
+    height: 3.7rem;
 }
 
 .unit-select {
