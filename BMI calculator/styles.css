@@ -57,21 +57,20 @@ body {
   color: #253347;
 }
 
-#radio-buttons-section {
+
+#inputs-section {
     display: flex;
-    display: block;
     flex-direction: row;
-    justify-content: left;
-    align-content: center;
+
 }
 
-#radio-col-left {
-    display: inline;
+#calc-inputs-right-col {
+    margin-left: 2rem;
+   
 }
 
-#radio-col-right {
-    display: inline;
-    margin-left: 10rem;
+.measurement-row {
+    margin-top: 1rem;
 }
 
 .unit-select {
@@ -84,18 +83,3 @@ body {
     color: #253347;
 }
 
-#measurement-input-section {
-    display: flex;
-    flex-direction: row;
-    margin-top: .75rem;
-}
-
-.measurement-col {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.col-right {
-    margin-left: 10rem;
-}
