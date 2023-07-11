@@ -13,7 +13,7 @@ body {
 #hero {
   display: flex;
   flex-direction: row;
-  background-image: url("assets/images/hero-bg.png");
+  background-image: url("assets/images/herobg-01.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50px 0;
@@ -39,23 +39,28 @@ body {
 #hero-right-col {
   width: 72%;
   display: flex;
+  justify-content: left;
 }
 
 /* calculator */
 #bmi-calc {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: white;
-  width: 70%;
+  width: 50%;
+  height: 25.5rem;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
   border-radius: 24px;
-  padding: 2.3rem;
+  padding: 2rem;
+  margin-top: 5rem;
 }
 
 #calc-heading {
   font-size: 1.5rem;
   font-weight: 600;
   color: #253347;
+  margin: 0;
 }
 
 
@@ -102,8 +107,15 @@ body {
 }
 
 #calc-result {
+    display: flex;
+    justify-content: left;
     height: 130px;
     margin-top: 3rem;
     background: linear-gradient(to right, #355FF6, #587DFF);
-    border-radius: 0 100px 100px 0;
+    border-radius: 8px 100px 100px 8px;
+    padding: 0 2rem;
+}
+
+#calc-result-starting-msg {
+    color: white;
 }
