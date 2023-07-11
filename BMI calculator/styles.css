@@ -209,7 +209,7 @@ body {
 #height-input-container {
   /* Add any additional styles for the form elements here */
   flex-basis: calc(50% - 10px);
-  margin: 5px;
+  margin-left: 10px;
   
 }
 
