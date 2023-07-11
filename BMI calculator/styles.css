@@ -147,27 +147,30 @@ body {
 /* BMI explanation section */
 #bmi-explanation-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
  
 }
 
 #explanation-h2 {
-  font-size: clamp(1rem, 3rem, 3rem);
+  font-size: clamp(1px, 3rem, 3rem);
   font-weight: bold;
   color: #253347;
 }
 
 #explanation-img-cont {
-  padding-left: 3rem;
-}
 
-
-
-#explanation-txt-cont {
-  margin-left: 2rem;
-  width: 36vw;
+  flex: 1 1 40vw;
 }
 
 #explanation-img {
   width: 40vw;
 }
+
+#explanation-txt-cont {
+  flex: 1 1 36vw;
+  
+  max-width: 100vw;
+}
+
