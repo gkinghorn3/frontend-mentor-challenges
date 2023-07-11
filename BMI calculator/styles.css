@@ -65,7 +65,12 @@ body {
 
 }
 
+#calc-inputs-left-col {
+    flex-grow: 1;
+}
+
 #calc-inputs-right-col {
+    flex-grow: 1;
     margin-left: 2rem;
    
 }
@@ -79,6 +84,7 @@ body {
 }
 
 .measurement-input {
+    margin-top: .5rem;
     border-style: solid;
     border-color: #D8E2E7;
     border-radius: 6px;
@@ -95,3 +101,9 @@ body {
     color: #253347;
 }
 
+#calc-result {
+    height: 130px;
+    margin-top: 3rem;
+    background: linear-gradient(to right, #355FF6, #587DFF);
+    border-radius: 0 100px 100px 0;
+}
