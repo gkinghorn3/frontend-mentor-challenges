@@ -46,6 +46,7 @@ body {
 #bmi-calc {
   display: flex;
   flex-direction: column;
+  
   justify-content: space-between;
   background-color: white;
   width: 50%;
@@ -68,6 +69,7 @@ body {
 #inputs-section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -94,7 +96,7 @@ body {
     border-style: solid;
     border-color: #D8E2E7;
     border-radius: 6px;
-    height: 3.7rem;
+    height: 3.2rem;
 }
 
 .unit-select {
