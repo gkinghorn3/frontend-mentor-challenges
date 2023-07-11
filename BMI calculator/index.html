@@ -29,15 +29,36 @@
       <section id="hero-right-col">
         <form id="bmi-calc">
           <h3 id="calc-heading">Enter your details below</h3>
-          <div id="radio-btn-sect">
-            <input type="radio" id="metric-radio" class="unit-select">
-            <label for="metric-radio" class="radio-label">Metirc</label>
-            <input type="radio" id="imperial-radio" class="unit-select">
-            <label for="metric-radio" class="radio-label">Imperial</label>
-          </div>
-          <div id="input-sect">
+          <div id="input-parent">
+
+            <div id="radio-metric-container">
+              <input type="radio" id="metric-radio" class="unit-select">
+              <label for="metric-radio" class="radio-label">Metirc</label>
+            </div>
+
+            <div id="radio-imperial-container">
+              <input type="radio" id="imperial-radio" class="unit-select">
+              <label for="metric-radio" class="radio-label">Imperial</label>
+            </div>
+
+            <div id="weight-input-container">  
+              <label for="weight-input">Weight</label>
+              <div class="input-container">
+                <input type="number" class="measurement-input" id="weight-input">
+                <label for="">kg</label>
+              </div>
+            </div>
+
+            <div id="height-input-container">  
+              <label for="height-input">Height</label>
+              <div class="input-container">
+                <input type="number" class="measurement-input" id="height-input">
+                <label for="">cm</label>
+              </div>
+            </div>
 
           </div>
+    
           
           <div id="calc-result">
             <div id="calc-result-starting-msg">

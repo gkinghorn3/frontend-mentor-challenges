@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  width: 50%;
+  width: 60%;
   height: 22.5rem;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
   border-radius: 24px;
@@ -195,3 +195,28 @@ body {
 
 
 }
+
+
+
+#input-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#radio-metric-container,
+#radio-imperial-container,
+#weight-input-container,
+#height-input-container {
+  /* Add any additional styles for the form elements here */
+  flex-basis: calc(50% - 10px);
+  margin: 5px;
+  
+}
+
+@media screen and (max-width: /* your mobile breakpoint here */) {
+    .height-input,
+    .weight-input {
+        flex-basis: calc(100% - 10px);
+    }
+}
+
