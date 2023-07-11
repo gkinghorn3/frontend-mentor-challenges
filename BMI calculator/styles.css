@@ -31,7 +31,7 @@ body {
 }
 
 #hero-heading {
-  font-size: 4rem;
+  font-size: clamp(1rem, 5vw, 4rem);
   font-weight: 600;
   color: #253347;
 }
@@ -69,21 +69,19 @@ body {
 #inputs-section {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
 #calc-inputs-left-col {
     flex-grow: 1;
+    margin-right: 2rem;
 }
 
 #calc-inputs-right-col {
     flex-grow: 1;
-    margin-left: 2rem;
-   
+ 
 }
-
-
 
 .measurement-row {
     display: flex;
@@ -97,6 +95,9 @@ body {
     border-color: #D8E2E7;
     border-radius: 6px;
     height: 3.2rem;
+    width: 100%;
+    font-size: clamp(1rem, 1.5rem, 1.5rem);
+    font-weight: 600;
 }
 
 .unit-select {
