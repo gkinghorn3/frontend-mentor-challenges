@@ -104,7 +104,7 @@ body {
   right: 14px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 1.5rem, 1.5rem);
   font-weight: 600;
   color: #345FF6;
 }
@@ -139,4 +139,14 @@ body {
 
 #bmi-result-healthy-weight {
   display: none;
+}
+
+/* BMI explanation section */
+#bmi-explanation-section {
+  display: flex;
+  align-items: center;
+}
+
+#explanation-img {
+  width: 40vw;
 }
