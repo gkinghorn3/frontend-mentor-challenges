@@ -29,54 +29,16 @@
       <section id="hero-right-col">
         <form id="bmi-calc">
           <h3 id="calc-heading">Enter your details below</h3>
-
-          <div id="inputs-section">
-            <div id="calc-inputs-left-col">
-              <div id="radio-col-left">
-                <input
-                  type="radio"
-                  class="unit-select"
-                  id="metric-select"
-                  name="unit-select"
-                  value="Metric"
-                />
-                <label for="metric-select" class="radio-label">Metric</label>
-              </div>
-              <div class="measurement-row">
-                <label for="height-input">Height</label>
-                <div class="input-container">
-                  <input type="number" id="height-input" class="measurement-input" />
-                  <label for="height-input">cm</label>
-                </div>
-
-              </div>
-            </div>
-
-            <div id="calc-inputs-right-col">
-              <div id="radio-col-right">
-                <input
-                  type="radio"
-                  class="unit-select"
-                  id="Imperial-select"
-                  name="unit-select"
-                  value="Imperial"
-                />
-                <label for="Imperial-select" class="radio-label">Imperial</label>
-                <div class="measurement-row">
-                  <label for="weight-input" class="measurement-input-label"
-                    >Weight</label
-                  >
-                  <div class="input-container">
-                    <input type="number" id="weight-input" class="measurement-input" />
-                    <label for="weight-input">kg</label>
-                  </div>
-                  
-                </div>
-              </div>
-
-
-            </div>
+          <div id="radio-btn-sect">
+            <input type="radio" id="metric-radio" class="unit-select">
+            <label for="metric-radio" class="radio-label">Metirc</label>
+            <input type="radio" id="imperial-radio" class="unit-select">
+            <label for="metric-radio" class="radio-label">Imperial</label>
           </div>
+          <div id="input-sect">
+
+          </div>
+          
           <div id="calc-result">
             <div id="calc-result-starting-msg">
               <h3 style="font-size: 1.5rem">
