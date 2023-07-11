@@ -17,7 +17,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 
-  
   min-height: 737px;
   padding: 4.6rem 7.8rem;
 
@@ -46,11 +45,10 @@ body {
 #bmi-calc {
   display: flex;
   flex-direction: column;
-  
   justify-content: space-between;
   background-color: white;
   width: 50%;
-  height: 25.5rem;
+  height: 20.5rem;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
   border-radius: 24px;
   padding: 2rem;
@@ -65,61 +63,59 @@ body {
   margin: 0;
 }
 
-
 #inputs-section {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
 }
 
 #calc-inputs-left-col {
-    flex-grow: 1;
-    margin-right: 2rem;
+  flex-grow: 1;
+  margin-right: 2rem;
 }
 
 #calc-inputs-right-col {
-    flex-grow: 1;
- 
+  flex-grow: 1;
 }
 
 .measurement-row {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
 }
 
 .measurement-input {
-    margin-top: .5rem;
-    border-style: solid;
-    border-color: #D8E2E7;
-    border-radius: 6px;
-    height: 3.2rem;
-    width: 100%;
-    font-size: clamp(1rem, 1.5rem, 1.5rem);
-    font-weight: 600;
+  margin-top: 0.5rem;
+  border-style: solid;
+  border-color: #d8e2e7;
+  border-radius: 6px;
+  height: 3.2rem;
+  width: 100%;
+  font-size: clamp(1rem, 1.5rem, 1.5rem);
+  font-weight: 600;
 }
 
 .unit-select {
-    transform: scale(2);
-    margin-right: 1.5rem;
+  transform: scale(2);
+  margin-right: 1.5rem;
 }
 
 .radio-label {
-    font-weight: bold;
-    color: #253347;
+  font-weight: bold;
+  color: #253347;
 }
 
 #calc-result {
-    display: flex;
-    justify-content: left;
-    height: 130px;
-    margin-top: 3rem;
-    background: linear-gradient(to right, #355FF6, #587DFF);
-    border-radius: 8px 100px 100px 8px;
-    padding: 0 2rem;
+  display: flex;
+  justify-content: left;
+  height: 130px;
+  margin-top: 3rem;
+  background: linear-gradient(to right, #355ff6, #587dff);
+  border-radius: 8px 100px 100px 8px;
+  padding: 0 2rem;
 }
 
 #calc-result-starting-msg {
-    color: white;
+  color: white;
 }
