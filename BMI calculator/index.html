@@ -16,28 +16,27 @@
   </head>
   <body>
     <header id="hero">
-      <section id="hero-left-col">
-        <img src="assets/images/game-icons_abstract-082.svg" alt="" />
+      <div id="hero-left-col">
+        <img src="assets/images/game-icons_abstract-082.svg" alt="" id="hero-icon"/>
         <h1 id="hero-heading">Body Mass Index Calculator</h1>
 
         Better understand your weight in relation to your height using our body
         mass index (BM) calculator. While BMI is not the sole determinant of a
         healthy weight, it offers a valuable starting point to evaluate your
         overall health and well-being.
-      </section>
-
-      <section id="hero-right-col">
+      </div>
+      <div id="hero-right-col">
         <form id="bmi-calc">
           <h3 id="calc-heading">Enter your details below</h3>
           <div id="input-parent">
 
             <div id="radio-metric-container">
-              <input type="radio" id="metric-radio" class="unit-select">
+              <input type="radio" id="metric-radio" class="unit-select" name="unit-select">
               <label for="metric-radio" class="radio-label">Metirc</label>
             </div>
 
             <div id="radio-imperial-container">
-              <input type="radio" id="imperial-radio" class="unit-select">
+              <input type="radio" id="imperial-radio" class="unit-select" name="unit-select">
               <label for="metric-radio" class="radio-label">Imperial</label>
             </div>
 
@@ -75,7 +74,7 @@
           </div>
           
         </form>
-      </section>
+      </div>
     </header>
 
     <Section id="bmi-explanation-section">
