@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
   background-position: ;
   max-height: 100vh;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   padding: 5vh 5vw 2vw 5vw;
 
 }
@@ -99,6 +99,8 @@ body {
   
 }
 
+
+
 .measurement-input {
   margin-top: 0.5rem;
   border-style: solid;
@@ -135,7 +137,7 @@ body {
   margin-top: 3rem;
   background: linear-gradient(to right, #355ff6, #587dff);
   border-radius: 12px;
-  padding: 0 2rem;
+  padding: 1rem 1rem;
 }
 
 #calc-result-starting-msg {
@@ -188,3 +190,11 @@ body {
     }
 }
 
+@media screen and (min-width: 767px) {
+  .measurement-input {
+    width: 50%;
+  }
+
+
+}
+}
