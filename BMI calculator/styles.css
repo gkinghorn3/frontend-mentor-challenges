@@ -75,6 +75,13 @@ body {
   flex-wrap: wrap;
 }
 
+/* radio input container */
+
+#radio-input-parent-container {
+  display: flex;
+  justify-content: end;
+}
+
 .unit-select {
   transform: scale(2);
   margin-right: 1rem;
