@@ -72,14 +72,14 @@ body {
 
 #input-parent {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /* radio input container */
 
 #radio-input-parent-container {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .unit-select {
@@ -90,14 +90,16 @@ body {
 .radio-label {
   font-weight: bold;
   color: #253347;
-  margin-right: 2rem;
+  
 }
 
 #radio-metric-container {
-  margin:0 1rem 0 1rem;
+
 }
 
 #number-input-container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -197,7 +199,21 @@ body {
 
 
 @media screen and (min-width: 767px) {
+  /* .input-container {
+    width: 50%;
+  } */
 
+  #weight-input-container,
+  #height-input-container {
+  flex-basis: calc(50% - 10px);
+  margin-top: 2rem;
+  }
+
+  #number-input-container {
+    flex-direction: row;
+    gap: 5%;
+  }
 
 }
+
 }
