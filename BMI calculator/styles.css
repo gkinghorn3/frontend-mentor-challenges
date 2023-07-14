@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("assets/images/hero-bg.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: ;
   max-height: 100vh;
@@ -205,6 +205,11 @@ body {
     flex-direction: row;
     padding: 5vh 5vw 2vw 5vw;
   }
+
+  #hero-right-col {
+    width: 50%;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
