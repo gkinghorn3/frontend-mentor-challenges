@@ -204,9 +204,15 @@ body {
   #hero {
     flex-direction: row;
     padding: 5vh 5vw 2vw 5vw;
+    background-position: contain;
   }
 
   #hero-right-col {
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  #hero-left-col {
     width: 50%;
   }
 
