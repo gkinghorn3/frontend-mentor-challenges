@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("assets/images/hero-bg.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: ;
   max-height: 100vh;
@@ -43,6 +43,7 @@ body {
 #hero-right-col {
   display: flex;
   justify-content: center;
+
 }
 
 /* calculator */
@@ -202,6 +203,7 @@ body {
 @media screen and (min-width: 992px) {
   #hero {
     flex-direction: row;
+    padding: 5vh 5vw 2vw 5vw;
   }
 }
 
