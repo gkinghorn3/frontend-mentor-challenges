@@ -20,7 +20,6 @@ body {
   max-height: 100vh;
   margin-bottom: 200px;
   padding: 5vh 5vw 2vw 5vw;
-
 }
 
 #hero-left-col {
@@ -28,8 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  text-align: center;            
-
+  text-align: center;
 }
 
 #hero-icon {
@@ -90,11 +88,9 @@ body {
 .radio-label {
   font-weight: bold;
   color: #253347;
-  
 }
 
 #radio-metric-container {
-
 }
 
 #number-input-container {
@@ -109,10 +105,7 @@ body {
 #height-input-container {
   flex-basis: calc(100% - 10px);
   margin-top: 2rem;
-  
 }
-
-
 
 .measurement-input {
   margin-top: 0.5rem;
@@ -125,8 +118,6 @@ body {
   font-weight: 600;
 }
 
-
-
 /* for unit label in inputs */
 .input-container {
   position: relative;
@@ -138,10 +129,8 @@ body {
   transform: translateY(-50%);
   font-size: clamp(1rem, 1.5rem, 1.5rem);
   font-weight: 600;
-  color: #345FF6;
+  color: #345ff6;
 }
-
-
 
 #calc-result {
   display: flex;
@@ -171,7 +160,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- 
 }
 
 #explanation-h2 {
@@ -181,7 +169,6 @@ body {
 }
 
 #explanation-img-cont {
-
   flex: 1 1 40vw;
 }
 
@@ -189,14 +176,11 @@ body {
   width: 40vw;
 }
 
-
 #explanation-txt-cont {
   flex: 1 1 36vw;
-  
+
   max-width: 100vw;
 }
-
-
 
 @media screen and (min-width: 767px) {
   /* .input-container {
@@ -205,15 +189,22 @@ body {
 
   #weight-input-container,
   #height-input-container {
-  flex-basis: calc(50% - 10px);
-  margin-top: 2rem;
+    flex-basis: calc(50% - 10px);
+    margin-top: 2rem;
   }
 
   #number-input-container {
     flex-direction: row;
     gap: 5%;
   }
-
 }
+
+@media screen and (min-width: 992px) {
+  #hero {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
 
 }
