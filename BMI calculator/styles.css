@@ -194,9 +194,17 @@ body {
     margin-top: 2rem;
   }
 
+  #radio-input-parent-container {
+    justify-content: start;
+  }
+
   #number-input-container {
     flex-direction: row;
     gap: 5%;
+  }
+
+  #radio-imperial-container {
+    margin-left: 5%;
   }
 }
 
