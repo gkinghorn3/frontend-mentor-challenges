@@ -13,10 +13,11 @@ body {
 #hero {
   display: flex;
   flex-direction: column;
-  background-image: url("assets/images/hero-bg.png");
+  background-image: url("assets/images/Rectangle\ 6\ \(1\).svg");
   background-size: cover;
+  background-position: left center;
   background-repeat: no-repeat;
-  background-position: ;
+ 
   max-height: 100vh;
   margin-bottom: 200px;
   padding: 5vh 5vw 2vw 5vw;
@@ -212,20 +213,31 @@ body {
   #hero {
     flex-direction: row;
     padding: 5vh 5vw 2vw 5vw;
-    background-position: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   #hero-right-col {
-    width: 50%;
-    margin-left: 2rem;
+    width: 40%;
+    margin-left: 1rem;
   }
 
-  #hero-left-col {
-    width: 50%;
-  }
+#hero-left-col {
+  width: 60%;
+}
+
+  #bmi-calc {
+    width: 100%;
+
+  };
 
 }
 
-@media screen and (min-width: 1200px) {
 
+
+@media screen and (min-width: 1200px) {
+  hero {
+    background-position: right 200px center;
+  }
+  
 }
