@@ -1,14 +1,24 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Hanken grotesk";
+  src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken grotesk", sans-serif;
 }
 
 body section {
@@ -16,39 +26,69 @@ body section {
 }
 
 #result-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to bottom, #7755FF, #2F2CE9);
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    height: 45vh;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  height: 45vh;
+  color: white;
 }
 
-#result-number-circle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 8.75rem;
-    height: 8.75rem;
-    border-radius: 100%;
-    background-image: url(assets/images/Oval.svg);
-    
+#result-section h3 {
+  color: #CAC9FF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-#result-rating {
-    width: 90%;
+#result-rating p {
+    color: #CAC9FF;
+    width: 16.25rem;
     text-align: center;
 }
 
+#result-number-circle {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 8.75rem;
+  height: 8.75rem;
+  border-radius: 100%;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+}
+
+#result-number-circle h1 {
+  color: white;
+  font-size: 56px;
+  margin: 0;
+}
+
+#result-number-circle p {
+  color: white;
+  margin: 0;
+  opacity: 0.5168108344078064;
+}
+
+#result-rating {
+  width: 90%;
+  text-align: center;
+}
+
 #summary-section {
-    display: flex;
-    width: 100vw;
+  display: flex;
+  width: 100vw;
 }
 
 .attribution {
-    position: absolute;
-    bottom: 10%;
+  position: absolute;
+  bottom: 10%;
 }
