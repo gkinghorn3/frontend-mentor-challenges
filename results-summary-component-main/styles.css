@@ -19,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Hanken grotesk", sans-serif;
+  background-color: #FCFDFF;
 }
 
 body section {
@@ -28,6 +29,7 @@ body section {
 #result-section {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
   border-bottom-left-radius: 18px;
@@ -45,8 +47,10 @@ body section {
 
 #result-rating p {
     color: #CAC9FF;
-    width: 16.25rem;
+    max-width: 18.25rem;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #result-number-circle {
@@ -83,6 +87,9 @@ body section {
   text-align: center;
 }
 
+
+/* summary section */
+
 #summary-section {
   display: flex;
   width: 100vw;
@@ -91,4 +98,28 @@ body section {
 .attribution {
   position: absolute;
   bottom: 10%;
+}
+
+#summary-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+    padding-right: 20vw;
+
+}
+
+#summary-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#summary-content h3 {
+    color: #303B59;
+    font-size: 1.125rem;
+    font-weight: 700;
 }
