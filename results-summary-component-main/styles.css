@@ -103,8 +103,8 @@ body section {
 #summary-section {
     display: flex;
     flex-direction: column;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    align-items: center;
+    
 
 }
 
@@ -112,9 +112,7 @@ body section {
 
     display: flex;
     flex-direction: column;
-    align-items: start;
-    margin-left: auto;
-    margin-right: auto;
+
     
 }
 
@@ -122,4 +120,19 @@ body section {
     color: #303B59;
     font-size: 1.125rem;
     font-weight: 700;
+}
+
+.attribute-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 19.68rem;
+    height: 3.5rem;
+    background: #FFF6F6;
+    border-radius: 18px;
+}
+
+.attribute {
+    display: flex;
 }
