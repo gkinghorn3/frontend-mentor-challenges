@@ -125,7 +125,7 @@ body section {
 .attribute-div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 19.68rem;
     height: 3.5rem;
